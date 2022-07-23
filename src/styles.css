@@ -1,0 +1,85 @@
+.title{
+    font-family: 'Secular One', sans-serif;   
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 74px;
+    background-color:lawngreen;
+    padding: 20px;
+
+    
+}
+
+.header_image{
+    height: 50px;
+    padding: 10px;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 20px;
+    padding: 70px;
+}
+.memebutton{
+    grid-column: 1 / -1;
+    font-family: 'Secular One', sans-serif; 
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.toptext{
+    font-family: 'Secular One', sans-serif; 
+    text-indent: 5px;
+}
+
+.bottomtext{
+    font-family: 'Secular One', sans-serif; 
+    text-indent: 5px;
+}
+
+.image > img{
+    border-radius: 10px;
+    position: relative;
+
+    height: 500px;
+    width: 500px;
+    
+    
+}
+
+.topText{
+    font-family: 'Secular One', sans-serif; 
+    text-indent: 5px;
+    
+}
+
+.bottomText{
+    font-family: 'Secular One', sans-serif; 
+    text-indent: 5px;
+   
+}
+
+.display{
+    text-align: center;
+    left: 50%;
+    height: 50%;
+}
+
